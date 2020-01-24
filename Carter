@@ -1,0 +1,403 @@
+<!DOCTYPE html><html><head><link href="https://static.xoedge.com/patterns/images/favicon.ico" rel="shortcut icon" /><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" /><meta content="Welcome to Kelsey Elwood and Nicholas Carter&#39;s Wedding Website! View photos, directions, registry details and more at The Knot." name="description" /><meta content="none" name="robots" /><meta content="//media.xogrp.com/images/f4708eec-0130-4da5-a6e4-8eab63e8fb42~rt_0-cr_0.818.5184.3410-rs_1024.h?compress=true" property="og:image" /><title>Kelsey Elwood and Nicholas Carter&#39;s Wedding Website</title><link href="https://www.theknot.com/us/kelsey-elwood-and-nicholas-carter-jul-2019" rel="canonical" /><link data-turbolinks-track="true" href="https://static.xoedge.com/xo-guest-services/assets/guest/layouts/layout1/app-def124342613979f4e082f99ec334dd1.css" media="all" rel="stylesheet" /><link href="https://static.xoedge.com/xo-guest-services/assets/guest/layouts/layout1/async-6be7da80e9e15ebd77b1056861fbc6d7.css" media="none" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;" rel="stylesheet" /><link data-turbolinks-track="true" href="https://static.xoedge.com/xo-guest-services/assets/guest/themes/bright_future/v2/style-4fe6a81cc3f06e0cfee3db5905b90c9b.css" media="all" rel="stylesheet" /><script data-turbolinks-track="true" defer="defer" id="guest-js" src="https://static.xoedge.com/xo-guest-services/assets/guest-bfeef777a484dbddad6049df43fac5ab.js"></script><script data-turbolinks-track="true" defer="defer" id="layout-js" src="https://static.xoedge.com/xo-guest-services/assets/guest/layouts/layout1/layout-05ea99709bef913a46be47bd919814b4.js"></script><script data-turbolinks-track="true" defer="defer" id="guest-rsvp-js" src="https://static.xoedge.com/xo-guest-services/assets/guest-rsvp-b35a31e10df09f22048f5024a33e9217.js"></script><script data-turbolinks-track="true" defer="defer" id="guest-elemental-init-js" src="https://static.xoedge.com/xo-guest-services/assets/guest-elemental-init-2f12f4442c6f7bf7db44a22f8c8a54d5.js"></script><script type="text/javascript">
+!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+analytics.load(
+'nibq354xak',
+{ integrations: { 'Facebook Pixel': false, 'Optimizely': false } }
+);
+}}();
+
+/*
+analytics.ready runs a function after Segment loads all analytics libraries
+In this case, we want to preserve last touch UTM properties on Mixpanel so that our
+UTM campaigns are tracked more accurately
+
+https://mixpanel.com/blog/2015/05/11/community-tip-last-touch-utm-tags/
+*/
+
+analytics.ready(function() {
+function getQueryParam(url, param) {
+param = param.replace(/[[]/, "\[").replace(/[]]/, "\]");
+var regexS = "[\?&]" + param + "=([^&#]*)",
+regex = new RegExp( regexS ),
+results = regex.exec(url);
+if (results === null || (results && typeof(results[1]) !== 'string' && results[1].length)) {
+return '';
+} else {
+return decodeURIComponent(results[1]).replace(/\W/gi, ' ');
+}
+};
+
+function campaignParams() {
+var campaign_keywords = 'utm_source utm_medium utm_campaign utm_content utm_term'.split(' '),
+kw = '',
+params = {},
+first_params = {};
+
+var index;
+
+for (index = 0; index < campaign_keywords.length; ++index) {
+kw = getQueryParam(document.URL, campaign_keywords[index]);
+if (kw.length) {
+params[campaign_keywords[index] + ' [last touch]'] = kw;
+}
+}
+
+for (index = 0; index < campaign_keywords.length; ++index) {
+kw = getQueryParam(document.URL, campaign_keywords[index]);
+if (kw.length) {
+first_params[campaign_keywords[index] + ' [first touch]'] = kw;
+}
+}
+
+mixpanel.people.set(params);
+mixpanel.people.set_once(first_params);
+mixpanel.register(params);
+}
+
+campaignParams();
+});
+</script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="cObbDevss/W927XAg8VzPtWMTB2wetjDUyaYHaNk1Jo=" name="csrf-token" /><style>body { color:#000000;font-family:Cormorant Garamond;font-size:16px;font-style:normal; } .item-title { color:#000000;font-family:Cormorant Garamond;font-size:18px;font-style:normal; } div[class*='section-title'] { color:#000000;font-family:Josefin Sans;font-size:2rem !important;font-style:normal; } #wedding-date-location { color:#000000;font-family:Cormorant Garamond;font-size:16px;font-style:normal; } #wedding-countdown { color:#000000;font-family:Cormorant Garamond;font-size:16px;font-style:normal; } #wedding-title { color:#000000;font-family:Josefin Sans;font-size:3.5rem !important;font-style:normal; }</style><script id="rsvp-modal-template" type="text/x-underscore-template">
+<div class="dialog rsvp modal-container">
+<div class="modal-overlay" />
+<div class="dialog-region sm">
+<div class="dialog-content">
+<div class="dialog-header">
+<span class="pull-left back-btn">Back</span>
+<span class="rsvp-header">RSVP</span>
+<span class="close-btn pull-right icon icon-general-close"></span>
+</div>
+<span class="section-title">{%= weddingCouple %}</span>
+<hr class="rsvp-hr"/>
+<div id="valid-error" class="hidden"></div>
+<div class="dialog-body has-horizontal-padding">
+</div>
+</div>
+</div>
+</div
+</script>
+<script id='rsvp-search-template' type='text/x-underscore-template'>
+
+<div class='match-not-found-message private-error-message'>
+</div>
+
+<p>We hope you can join us!</p>
+<p>Please enter your name below.</p>
+
+<div class='input-group'>
+<input type='text' id='first-name' class='form-control' maxlength='255' placeholder='First Name'></input>
+</div>
+
+<div class='input-group'>
+<input type='text' id='last-name' class='form-control' maxlength='255' placeholder='Last Name'></input>
+</div>
+
+<div class='input-group hidden'>
+<input type='text' id='reminder-email-rsvp' class='form-control' maxlength='255' placeholder='Email Address'></input>
+</div>
+
+<small class='invalid visible-xs'></small>
+<div class='button-container'>
+<button id='find-invite'>Find My Invitation</button>
+<small class='invalid hidden-xs'></small>
+</div>
+
+</script>
+<script id='rsvp-guest-template' type='text/x-underscore-template'>
+<p class='rsvp-guest-counter'>Guest {%=guestIndex%} of
+<span class='guest-total'>{%=guestTotal%}</span>:</p>
+<p class='rsvp-guest-name'>{%-guest.first_name%} {%-guest.last_name%}</p>
+{% if(private && guest.invitations.size() == 0) { %}
+<p class='no-invites-message'>
+Whoops, we can't find the invitation for "{%-guest.first_name%} {%-guest.last_name%}."
+Try reaching out to {%=weddingCouple%} to RSVP.
+</p>
+{% } %}
+<div class='rsvp-events-list'>
+{% events.each(function(event) { %}
+{% var eventId = event.get('id') %}
+{% var invite = guest.invitations.findWhere({event_id: eventId}) %}
+{% if(invite || (event.get('rsvp') && !private)) { %}
+<div class='rsvp-event' data-event-id={%=eventId%}>
+<div class='rsvp-event-name'>{%-event.displayName()%}</div>
+<div class='rsvp-event-datetime'>
+{% if(event.get('date')) { %}
+<span>{%=event.get('date')%}</span>
+{% if(event.get('time')) { %} <span class='datetime-divider'>|</span> {% } %}
+{% } %}
+{% if(event.get('time')) { %}
+<span>{%=event.get('time')%}</span>
+{% } %}
+</div>
+
+<div class='rsvp-buttons rsvp-toggle-container form-control'>
+<span>
+<input type='radio' class='clickable rsvp-button rsvp-accept'
+id='guest-{%=guestIndex%}-event-{%=eventId%}-accept'
+name='guest-{%=guestIndex%}-event-{%=eventId%}'
+value='true' {%= invite && invite.get('rsvp') === true ? 'checked' : '' %}>
+<label class='rsvp-button'
+for='guest-{%=guestIndex%}-event-{%=eventId%}-accept'>Accept</label>
+</span>
+<span>
+<input type='radio' class='clickable rsvp-button rsvp-regret'
+id='guest-{%=guestIndex%}-event-{%=eventId%}-regret'
+name='guest-{%=guestIndex%}-event-{%=eventId%}'
+value='false' {%= invite && invite.get('rsvp') === false ? 'checked' : '' %}>
+<label class='rsvp-button'
+for='guest-{%=guestIndex%}-event-{%=eventId%}-regret'>Regret</label>
+</span>
+</div>
+
+<div class='rsvp-meals'>
+{% if(event.get('meals').length) { %}
+<select tabindex={%= invite && invite.get('rsvp') !== true ? '"-1" disabled' : '"0"' %}
+class='select-rsvp-meal form-control' id='meal-{%=guestIndex%}-{%=eventId%}'>
+<option {%= invite && invite.get('meal_id') === null ? 'selected' : '' %}
+disabled value='default'>Select Meal Option</option>
+{% event.get('meals').forEach(function(meal) { %}
+<option {%= invite && invite.get('meal_id') === meal.id ? 'selected' : '' %}
+value='{%=meal.id%}'>{%-meal.name%}</option>
+{% }) %}
+</select>
+{% } %}
+</div>
+
+</div>
+
+<hr/>
+{% } %}
+{% }) %}
+</div>
+
+{% if (guestIndex == guestTotal && !private) { %}
+<div class='add-party-member-container'>
+<p>RSVP for another member of your party?</p>
+<div class='add-party-member rsvp-toggle-container form-control'>
+<span>
+<input type='radio' class='clickable add-member-button'
+id='add-party-member-{%=guestIndex%}'
+name='add-party-member-{%=guestIndex%}' value='true'>
+<label class='rsvp-button'
+for='add-party-member-{%=guestIndex%}'>Yes</label>
+</span>
+<span>
+<input type='radio' class='clickable add-member-button'
+id='dont-add-party-member-{%=guestIndex%}'
+name='add-party-member-{%=guestIndex%}' value='false'>
+<label class='rsvp-button'
+for='dont-add-party-member-{%=guestIndex%}'>No</label>
+</span>
+</div>
+</div>
+{% } %}
+
+<small class='invalid visible-xs'></small>
+<div class='button-container'>
+<button class='next-guest'>Next</button>
+<small class='invalid hidden-xs'></small>
+</div>
+
+</script>
+<script id="rsvp-name-template" type="text/x-underscore-template">
+
+<p>Please enter your guest's name.</p>
+
+<div class="input-group">
+<input type="text" id="first-name" class="form-control" maxlength="255" placeholder="First Name"></input>
+</div>
+
+<div class="input-group">
+<input type="text" id="last-name" class="form-control" maxlength="255" placeholder="Last Name"></input>
+</div>
+
+<div class="button-container">
+<button id="submit-guest-name">Next</button>
+<small class='invalid'></small>
+</div>
+
+</script>
+<script id='rsvp-summary-template' type='text/x-underscore-template'>
+<div class='rsvp-summary-guest-list'>
+{% partyGuests.each(function(guest) { %}
+<div class='rsvp-summary-guest'>
+<div class='rsvp-summary-guest-name'>
+{%-guest.get('first_name')%} {%-guest.get('last_name')%}
+</div>
+<div class='rsvp-summary-event-list'>
+{% guest.get('invitations').each(function(invite) { %}
+{% var event = events.findWhere({id: invite.get('event_id')}) %}
+<div class='rsvp-summary-event'>
+{% var rsvpStatusClass = ''%}
+{% if(invite.get('rsvp') === true) { %}
+{% rsvpStatusClass = 'rsvp-yes icon-general-checkmark' %}
+{% } else if(invite.get('rsvp') === false) { %}
+{% rsvpStatusClass = 'rsvp-no icon-general-close' %}
+{% } %}
+<span class='rsvp-status icon {%=rsvpStatusClass%}'></span>
+<span class='event-name'>{%-event.displayName()%}</span>
+{% if(event.get('meals').length && invite.get('meal_id')) { %}
+{% var meal = _.findWhere(event.get('meals'), {id: invite.get('meal_id')}) %}
+<span class='meal-selection'>({%-meal.name%})</span>
+{% } %}
+</div>
+{% }) %}
+</div>
+</div>
+{% }) %}
+</div>
+
+<div class='rsvp-summary-note'>
+<p>Send a note to the couple (optional)</p>
+<textarea class='form-control' rows='2' maxlength='320' name='rsvp-note' id='rsvp-note'>{%-rsvpNote%}</textarea>
+<div class='char-count'>
+<span class='chars-left'>{%=charsLeft%}</span> characters left
+</div>
+</div>
+
+{% if (GuestViewWWS.isUsIp && partyGuests.first().get('uuid')) { %}
+{% if (obfuscatedPhone || email || obfuscatedEmail) { %}
+<div class="contact-info-container">
+<div class="contact-info-dialog">Your Contact Info</div>
+{% if (obfuscatedPhone) { %}
+<div class="contact-info">Phone: {%-obfuscatedPhone%}</div>
+{% } else if(email || obfuscatedEmail) { %}
+<div class="contact-info">Email: {%-email || obfuscatedEmail%}</div>
+{% } %}
+</div>
+
+<div class="checkbox-container">
+<input type="checkbox" class="checkbox" checked />
+
+<span class="checkbox-text">
+<span>Send me an RSVP confirmation and updates about this wedding.</span>
+{% if (obfuscatedPhone) { %}
+<span>Message and data rates may apply.</span>
+{% } %}
+</span>
+</div>
+{% } %}
+{% } %}
+
+<div class='button-container'>
+<button id='submit-rsvp'>Send RSVP</button>
+<small class='invalid'></small>
+</div>
+
+{% if(obfuscatedPhone || email || obfuscatedEmail) { %}
+<div class="link-container">
+<a href="/privacy-policy" target="_blank" class="privacy-link"> Privacy Policy</a>
+</div>
+{% } %}
+</script>
+<script id='duplicate-guest-addresses' type='text/x-underscore-template'>
+<div class="{%- classNames %}">
+<p>We&#39;ve found more than one match in the guest list. Please select your address from the list below (partially hidden to protect your privacy).</p>
+
+<div class="row col-xs-offset-1">
+{% addresses.forEach(function(obj) { %}
+<div class="clearfix">
+<input type="radio" value="{%= obj.id %}" class="pull-left" name="guest-address" />
+<label class="pull-left col-xs-offset-1" for="{%= obj.id%}">
+{%- obj.address %}
+</label>
+</div>
+{% })%}
+</div>
+
+<div class="row">
+<small>If your address is not listed, please contact the couple to RSVP.</small>
+</div>
+
+<div class="button-container">
+<button id="continue-rsvp" disabled>Next</button>
+</div>
+</div>
+</script>
+<script id='low-confidence-match' type='text/x-underscore-template'>
+<div class="{%- classNames %}">
+{% let matchNumString = '' %}
+{% if (potentialHouseholds.length > 1){ %}
+{% matchNumString = 'more than' %}
+{% } %}
+<p>We've found {%=matchNumString%} one possible match in the guest list. Please select your household or party from the list below:</p>
+<form>
+{% potentialHouseholds.forEach(function(household) { %}
+<label class="potential-household-label">
+{% let additionalGuests = household.get('personIds').length - 1%}
+{% let string = ''%}
+{% if(additionalGuests > 0) { %}
+{% string = '(<b>+' + additionalGuests + '</b>)' %}
+{% } %}
+{%=household.get('guestRsvpDisplayName')%} {%=string%}
+<input
+type="radio"
+name="household"
+class="potential-household-checkbox"
+value={%=household.get('leaderPersonUuid')%}
+/>
+<span class="checkmark"></span>
+</label>
+{% })%}
+<div class='button-container'>
+<button class='next-btn' type="submit">Next</button>
+<small class="error-message">Please select a household/party</small>
+</div>
+</form>
+</div>
+</script>
+<script id='no-duplicate-addresses' type='text/x-underscore-template'>
+<div class="{%- classNames %}">
+<p>There&#39;s more than one "{%= firstName %} {%= lastName %}" on the guest list. Please contact {%= weddingCouple %} to RSVP.</p>
+
+<br />
+
+<p>TIP: The couple can add your address to their guest list so you can find your invitation.</p>
+
+<br />
+
+<div class='button-container'>
+<button class='close-btn'>Close</button>
+</div>
+</div>
+</script>
+</head><body class="layout1 version-2" data-slug="kelsey-elwood-and-nicholas-carter-jul-2019"><div data-attrs="{&quot;weddingUUID&quot;:&quot;d81a8049-e28e-4146-947e-e344a2f95cef&quot;,&quot;ownerUUID&quot;:&quot;3d2d0de4-08b6-4565-b35e-b093e19e2cfa&quot;}" id="analytics-data"></div><div id="main-container-background"></div><div class="wedding-page" id="main-container"><div class="theme-image-container"><div class="theme-image"></div><div class="theme-image-layer-top"></div></div><div class="theme-image-container-left"><div class="theme-image-left"></div></div><div class="theme-image-container-right"><div class="theme-image-right"></div></div><div id="title-container"><div><h1 id="wedding-title">Kelsey &amp; Nicholas</h1><h2 id="wedding-date-location"><span class="date-spacing"> &emsp; </span><span id="wedding-date">July 20, 2019</span><span class="date-spacing"> &emsp; </span><span id="separator"> &bull; </span><span id="wedding-location">Aspen, CO</span></h2><h2 data-hide-countdown="false" data-wedding-date="2019-07-20" id="wedding-countdown"></h2></div></div><div class="main-nav-container-container"><div class="has_content" id="main-nav-container"><div class="hidden" data-months-to-wedding="-6" data-url="/us/kelsey-elwood-and-nicholas-carter-jul-2019" id="wedding-data"></div><div class="main-nav-container-inner"><div class="clearfix"><button class="main-nav">Menu</button></div><nav class="main-nav-hidden" data-behavior="Registry.attachNavAnalytics" id="main-nav"><ul><li class="main-nav-item"><a class="selected" href="/us/kelsey-elwood-and-nicholas-carter-jul-2019?preview=true">Wedding Details</a><ul><li><a class="selected" href="/us/kelsey-elwood-and-nicholas-carter-jul-2019?preview=true#the-wedding">The Wedding</a></li><li><a class="selected" href="/us/kelsey-elwood-and-nicholas-carter-jul-2019?preview=true#other-events">Other Events</a></li><li><a class="selected" href="/us/kelsey-elwood-and-nicholas-carter-jul-2019?preview=true#wedding-party">Wedding Party</a></li></ul></li><li class="main-nav-item"><a class="rsvp-link" data-source="nav" href="/us/kelsey-elwood-and-nicholas-carter-jul-2019/rsvp">RSVP</a></li></ul></nav></div></div></div><header id="header"><div class="header-background"></div><div class="wide-cover-image is-desktop" data-src="//media.xogrp.com/images/f4708eec-0130-4da5-a6e4-8eab63e8fb42~rt_0-cr_0.818.5184.3410-rs_1024.h?compress=true" id="cover-image" style="background-image: url(//media.xogrp.com/images/f4708eec-0130-4da5-a6e4-8eab63e8fb42~rt_0-cr_0.818.5184.3410-rs_1024.h?compress=true)"></div><div class="wide-cover-image is-mobile" data-src="//media.xogrp.com/images/f4708eec-0130-4da5-a6e4-8eab63e8fb42~rt_0-cr_0.818.5184.3410?compress=true" id="cover-image" style="background-image: url(//media.xogrp.com/images/f4708eec-0130-4da5-a6e4-8eab63e8fb42~rt_0-cr_0.818.5184.3410?compress=true)"></div></header><div id="content"><div class="content-background"></div><div class="page"><div class="page-background"></div><div class="page-sections"><div class="anchor" id="the-wedding"></div><div class="wedding-event-section"><div class="wedding-event-section-background"></div><div class="wedding-event-section-title-border-top"></div><div class="wedding-event-section-title">The Wedding</div><div class="wedding-event-section-title-border-bottom"></div><p class="wedding-event-section-description"></p><div class="wedding-event-section-image-container"><img class="wedding-event-section-image" src="//media.xogrp.com/images/e8c722d2-e7d4-46e2-98be-46cc81108a37" /></div><div class="wedding-event-section-items"><div class="wedding-event-item"><div class="wedding-event-title"></div><div class="wedding-event-date">Saturday, July 20, 2019<br> 3:30 PM</br></div><div class="wedding-event-attire">Attire: Mountain Semi-Formal</div><div class="wedding-event-button-container"><button class="rsvp-link" data-source="Wedding" onclick="window.location.href=&quot;/us/kelsey-elwood-and-nicholas-carter-jul-2019/rsvp&quot;">RSVP</button></div><div class="wedding-event-separator"></div><div class="wedding-event-title item-title">Ceremony and Reception</div><div class="wedding-event-venue">Buttermilk Ski Area - Aspen Skiing Company</div><div class="wedding-event-address">38700 Colorado 82, Aspen, CO</div><div class="wedding-event-separator"></div><div class="wedding-event-description">The ceremony will take place at the top of the chairlift at Buttermilk Mountain at 4:15 pm. The only access to the ceremony site will be by chairlift, so please arrive early (the chairlift will start operating at 3:30 pm). After the ceremony, we will all ride the chairlift back down to the base of Buttermilk, where we will enjoy dinner and dancing inside Buttermilk Mountain Lodge. Attire is mountain semi-formal, which means that you should wear something that is classy, comfortable, and appropriate for mountain weather. Be prepared for the weather to be sunny, windy, or chilly, so remember to bring both sunscreen and a jacket. Secure shoes are recommended for riding the chairlift. </div></div></div></div><div class="section-separator"></div><div class="anchor" id="other-events"></div><div class="event-section"><div class="event-section-background"></div><div class="event-section-title-border-top"></div><div class="event-section-title">Other Events</div><div class="event-section-title-border-bottom"></div><p class="event-section-description"></p><div class="event-section-items"><div class="event-item"><div class="event-title item-title">Post-Wedding Brunch</div><div class="event-image-container"><img class="item-image" src="//media.xogrp.com/images/330dcedc-4239-457b-bbb6-4b2f86fa9d1c~rt_0" /></div><div class="event-date">Sunday, July 21, 2019<br> 9:30 AM</br></div><div class="event-venue">Aspen Center for Environmental Studies</div><div class="event-address">100 Puppy Smith St, Aspen, CO 81611, USA</div><div class="event-attire"></div><div class="event-description"><p>The Aspen Center for Environmental Studies (ACES) at Hallam Lake is a 25-acre nature preserve in the heart of Aspen. Please come join us for a light breakfast the morning after we tie the knot! Meet our resident golden eagle, great horned owl, and red-tailed hawk and explore the nature preserve. Dress is casual. We can't wait to share this special place with you.</p></div><div class="event-button-container"><button class="rsvp-link" data-source="Post-Wedding Brunch" onclick="window.location.href=&quot;/us/kelsey-elwood-and-nicholas-carter-jul-2019/rsvp&quot;">RSVP</button></div></div><div class="event-separator"></div><div class="event-item"><div class="event-title item-title">Early welcome gathering</div><div class="event-image-container"><img class="item-image" src="//media.xogrp.com/images/f1ca6b89-4099-4740-81e5-1faa436fa336~rt_0-rs_840.h" /></div><div class="event-date">Thursday, July 18, 2019<br> 6:30 PM</br></div><div class="event-venue">Snowmass Free Concert</div><div class="event-address">Snowmass Village, CO, USA</div><div class="event-attire"></div><div class="event-description"><p>Come find us at the <a rel="nofollow" href="https://www.gosnowmass.com/activity/summer-music-series/" target="_blank">Thursday night concert</a> on Fanny Hill! Admission is free. We will have some blankets set up with food. Dress is casual, but remember that evenings get cool, so a jacket is recommended.</p></div></div><div class="event-separator"></div></div></div><div class="section-separator"></div><div class="anchor" id="wedding-party"></div><div class="wedding-party-section"><div class="wedding-party-section-background"></div><div class="wedding-party-section-title-border-top"></div><div class="wedding-party-section-title">Wedding Party</div><div class="wedding-party-section-title-border-bottom"></div><p class="wedding-party-section-description"></p><div class="wedding-party-section-items"><div class="col-md-6"><div class="wedding-party-item"><div class="wedding-party-image-container"><div class="wedding-party-image" style="background-image: url(//media.xogrp.com/images/9e55fa92-36e9-445c-9c87-d2de79d07da8~rt_0-cr_185.0.1553.1368)"></div></div><div class="wedding-party-content-container"><div class="wedding-party-title">Chloe Adams - Bride&#39;s Attendant</div><div class="wedding-party-description"><p>Kelsey's sister</p></div></div></div><div class="wedding-party-separator"></div></div><div class="section-separator hidden-md hidden-lg"></div><div class="col-md-6"><div class="wedding-party-item"><div class="wedding-party-image-container"><div class="wedding-party-image" style="background-image: url(//media.xogrp.com/images/1a8925dc-8e3b-4522-aa48-57ebf7277c32~rt_0-cr_172.410.1160.1398)"></div></div><div class="wedding-party-content-container"><div class="wedding-party-title">Tiffany Crockett - Groom&#39;s Attendant</div><div class="wedding-party-description"><p>Nick's sister</p></div></div></div><div class="wedding-party-separator"></div></div></div></div><div class="section-separator"></div></div></div></div><div class="theme-image-container-bottom"><div class="theme-image-bottom"></div></div><div class="dialog modal-container registry-reminder hidden"><div class="modal-overlay"></div><div class="dialog-region"><div class="dialog-content"><div class="dialog-header"><span class="close-btn pull-right icon icon-general-close"></span></div><div class="dialog-body has-padding"><div class="sent-icon"></div><p>Thanks, we've received your <span class="action"><span>.</p><hr /><div class="reminder-container"><div class="view-registry-link hidden"><p>Looking for gift ideas?</p><div class="button-container"><button id="view-registry">View Registry</button></div></div><div class="accommodations-link hidden"><p>Need a place to stay during the wedding?</p><div class="button-container"><button id="view-accommodations">View Accommodations</button></div></div><div class="wedding-details-link hidden"><div class="button-container"><button id="view-wedding-details">View Wedding Details</button></div></div></div></div></div></div></div></div><div class="footer"><div class="footer-text">Created on The Knot<br>Getting married? <a href="https://www.theknot.com/gs/wedding-websites" target="_blank" rel="noopener">Create your wedding website for free</a>.</br></div></div><div id="rsvp-container"></div><script type="text/javascript">var setupPage = function() {
+segmentIoTrackPage("d81a8049-e28e-4146-947e-e344a2f95cef", "3d2d0de4-08b6-4565-b35e-b093e19e2cfa")
+segmentIoTrackPhoto()
+loadGoogleFonts(["Cormorant Garamond", "Josefin Sans"])
+setHasAccommodations(3)
+setTrackingInfo({
+hasWWSWeddingDate: true,
+hasWWSWeddingLocation: true,
+hasWWSCoverPhoto: true,
+customDomain: false,
+security: "private",
+rsvpOnCount: 4,
+hasWWSFirstNames: true,
+hasWWSLastNames: true
+})
+
+$(function(){
+echo.init({
+offset: 100,
+throttle: 250,
+unload: false
+});
+});
+
+Honeybadger.configure({
+api_key: "b097c6c6",
+environment: "production"
+});
+}
+
+if (window.guestBundleLoaded) {
+setupPage()
+} else {
+document.getElementById('guest-js').addEventListener('load', function() {
+window.guestBundleLoaded = true
+setupPage()
+GuestViewWWS.isUsIp = true
+});
+}</script></body></html>
